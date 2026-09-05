@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rukia Nekesa — Developer & Netballer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav>
+  <div class="nav-brand">RUKIA.</div>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#netball">Netball</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="nav-right">
+    <button class="theme-btn" onclick="toggleTheme()">🌙</button>
+  </div>
+</nav>
+
+<main>
+
+<!-- HERO SECTION -->
+<section id="home" class="hero">
+  <div class="hero-text">
+    <h1>Hi, I'm <span class="highlight">Rukia Nekesa</span></h1>
+    <p>ICT Graduate | Aspiring Software Developer | Netball Player</p>
+    <p style="margin-bottom: 2rem;">I enjoy turning ideas into practical digital solutions. Always learning. Always growing.</p>
+    <div class="hero-cta">
+      <button class="btn btn-primary" onclick="document.getElementById('contact').scrollIntoView()">Let's Chat ↓</button>
+      <button class="btn btn-secondary">Download CV ↓</button>
+    </div>
+    <div class="social-links">
+      <a href="https://github.com" target="_blank">🐙</a>
+      <a href="https://linkedin.com" target="_blank">💼</a>
+      <a href="mailto:rukiaharvey@gmail.com">✉️</a>
+    </div>
+  </div>
+  <div class="hero-image">
+    <img src="images/IMG_20241202_124431_158.webp" alt="Rukia">
+  </div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section id="about" class="about">
+  <div>
+    <div class="section-title">About Me</div>
+    <h2>Get to know me</h2>
+    <p>I'm a Diploma in ICT graduate from Machakos University, passionate about software development and using technology to solve real-world problems.</p>
+    <p>I love learning new things, building projects, and challenging myself to grow every day. My journey combines technical expertise with the discipline I've gained from netball—teamwork, strategy, and determination.</p>
+    
+    <div class="traits">
+      <div class="trait">
+        <div class="trait-icon">🧠</div>
+        <div class="trait-text">
+          <h4>Analytical Thinker</h4>
+          <p>Breaking down complex problems</p>
+        </div>
+      </div>
+      <div class="trait">
+        <div class="trait-icon">🎯</div>
+        <div class="trait-text">
+          <h4>Team Player</h4>
+          <p>Collaborating effectively</p>
+        </div>
+      </div>
+      <div class="trait">
+        <div class="trait-icon">⚡</div>
+        <div class="trait-text">
+          <h4>Problem Solver</h4>
+          <p>Finding creative solutions</p>
+        </div>
+      </div>
+      <div class="trait">
+        <div class="trait-icon">📚</div>
+        <div class="trait-text">
+          <h4>Quick Learner</h4>
+          <p>Adapting fast to new tech</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="about-cards">
+    <div class="card">
+      <h4>🎓 Diploma in ICT</h4>
+      <p>Machakos University • Awaiting Graduation</p>
+    </div>
+    <div class="card">
+      <h4>🏐 Netball Player & Coach</h4>
+      <p>5+ years • WA/GA position • Coaching experience</p>
+    </div>
+    <div class="card">
+      <h4>💻 Sports Management System</h4>
+      <p>Designed & implemented a full-featured system</p>
+    </div>
+  </div>
+</section>
+
+<!-- NETBALL SECTION -->
+<section id="netball" class="netball">
+  <div>
+    <div class="section-title">Passion Project</div>
+    <h2>More Than a Game</h2>
+    <p>Netball has taught me discipline, teamwork, leadership and determination. On court or off court, I give my best.</p>
+    <p>The skills I've learned on the netball court directly translate to my approach in software development—strategy, precision, and dedication to excellence.</p>
+    
+    <div class="netball-stats">
+      <div class="stat-card">
+        <h4>Position</h4>
+        <div class="value">WA / GA</div>
+      </div>
+      <div class="stat-card">
+        <h4>Years Playing</h4>
+        <div class="value">5+</div>
+      </div>
+      <div class="stat-card">
+        <h4>Coaching</h4>
+        <div class="value">Yes ✓</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="netball-images">
+    <div class="netball-img">
+      <img src="images/1000599240.jpg" alt="Netball Game">
+    </div>
+    <div class="netball-img">
+      <img src="images/1000149289.jpg" alt="Netball Team">
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS SECTION -->
+<section id="projects" class="projects">
+  <div class="section-title">My Work</div>
+  <h2>Things I've Built</h2>
+  
+  <div class="project-card">
+    <h3>⚽ Sports Management System</h3>
+    <p>A computerized system for managing sports equipment, captains, and issuance records. Built with PHP & MySQL, featuring real-time tracking and automated status detection. This project demonstrates my full-stack capabilities.</p>
+    <div class="project-tags">
+      <span class="tag">PHP</span>
+      <span class="tag">MySQL</span>
+      <span class="tag">JavaScript</span>
+      <span class="tag">HTML/CSS</span>
+      <span class="tag">System Design</span>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS SECTION -->
+<section id="skills" class="skills">
+  <div class="section-title">Expertise</div>
+  <h2>Technical Skills</h2>
+  
+  <div class="skills-grid">
+    <div class="skill-item">
+      <div class="skill-icon">📄</div>
+      <h4>HTML</h4>
+      <p>★★★★★</p>
+    </div>
+    <div class="skill-item">
+      <div class="skill-icon">🎨</div>
+      <h4>JavaScript</h4>
+      <p>★★★★☆</p>
+    </div>
+    <div class="skill-item">
+      <div class="skill-icon">⚙️</div>
+      <h4>CSS</h4>
+      <p>★★★★★</p>
+    </div>
+    <div class="skill-item">
+      <div class="skill-icon">🔧</div>
+      <h4>PHP</h4>
+      <p>★★★★★</p>
+    </div>
+    <div class="skill-item">
+      <div class="skill-icon">💾</div>
+      <h4>SQL</h4>
+      <p>★★★★★</p>
+    </div>
+    <div class="skill-item">
+      <div class="skill-icon">🗄️</div>
+      <h4>MySQL</h4>
+      <p>★★★★★</p>
+    </div>
+    <div class="skill-item">
+      <div class="skill-icon">🐙</div>
+      <h4>Git & GitHub</h4>
+      <p>★★★★☆</p>
+    </div>
+    <div class="skill-item">
+      <div class="skill-icon">💻</div>
+      <h4>VS Code</h4>
+      <p>★★★★★</p>
+    </div>
+  </div>
+
+  <!-- NOW SECTION -->
+  <div class="now">
+    <h3>📌 What I'm Doing Now</h3>
+    <div class="now-item">JavaScript Certification (In Progress)</div>
+    <div class="now-item">Building interactive web applications</div>
+    <div class="now-item">Learning advanced React concepts</div>
+    <div class="now-item">Preparing for graduation 🎓</div>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="contact">
+  <div>
+    <div class="section-title">Get In Touch</div>
+    <h2>Let's Chat!</h2>
+    <p>Have a project in mind or just want to say hi? Feel free to reach out! I'm always excited to hear from you.</p>
+    
+    <div class="contact-info">
+      <div class="contact-item">
+        <div class="contact-icon">✉️</div>
+        <a href="mailto:rukiaharvey@gmail.com">rukiaharvey@gmail.com</a>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">📍</div>
+        <span>Machakos, Kenya</span>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">💼</div>
+        <a href="https://linkedin.com" target="_blank">linkedin.com/in/rukia-nekesa</a>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">🐙</div>
+        <a href="https://github.com" target="_blank">github.com/rukia-dev</a>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <div class="contact-form">
+      <div class="form-group">
+        <label>Your Name</label>
+        <input type="text" placeholder="What's your name?">
+      </div>
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email" placeholder="your@email.com">
+      </div>
+      <div class="form-group">
+        <label>Message</label>
+        <textarea placeholder="Tell me something..."></textarea>
+      </div>
+      <div class="form-group">
+        <button onclick="sendMessage()">Send Message ✈️</button>
+      </div>
+    </div>
+    
+    <div class="contact-image">
+      <img src="images/IMG_20260319_220549_178.webp" alt="Contact">
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <p>&copy; 2026 Rukia Nekesa. All rights reserved. 💜</p>
+  <p style="margin-top: 0.5rem; font-size: 0.75rem;">
+    <span class="easter-egg" onclick="showFunFact()">🎲 Click for a fun fact!</span>
+  </p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
